@@ -1,0 +1,10 @@
+{
+  "name": "subdomain-service",
+  "version": "1.0.0",
+  "description": "Registers, validates, and manages giving pages subdomains",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "uuid": "^2.0.3"
+  }
+}
