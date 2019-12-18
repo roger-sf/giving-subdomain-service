@@ -46,7 +46,17 @@ functions:
 
 ## Usage
 
-You can register, retrieve, update, or delete subdomainMapping with the following commands:
+### Validate a subdomain
+
+```bash
+curl https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/subdomainMapping/isAvailable/redcross
+```
+
+Example Result:
+```bash
+{"subdomain":"redcross","isValid":true,"isBlacklisted":false,"isTaken":false}%
+```
+
 
 ### register a subdomainMapping
 
